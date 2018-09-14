@@ -13,9 +13,9 @@ public class fahrenheitToCelcius2 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What was the temperature at 8?");
 		Fahrenheit8 = input.nextDouble();
-		System.out.println("What was the temperature at 8?");
+		System.out.println("What was the temperature at 12?");
 		Fahrenheit12 = input.nextDouble();
-		System.out.println("What was the temperature at 8?");
+		System.out.println("What was the temperature at 5?");
 		Fahrenheit5 = input.nextDouble();
 		
 		tempCelsius(Fahrenheit8, Fahrenheit12, Fahrenheit5);
