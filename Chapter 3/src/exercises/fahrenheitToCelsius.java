@@ -31,7 +31,6 @@ public class fahrenheitToCelsius {
 		CelAt5 = ((FahAt5 - 32) * .5556 );
 		System.out.println("At 5:00 the temperature in Celsius was " + CelAt5);
 		
-		predictCelsius();
 	}
 
 }

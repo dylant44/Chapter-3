@@ -1,10 +1,16 @@
 package youDoIt;
 
+import java.util.Scanner;
+
 public class ParadiseInfo 
 {
 
 	public static void main(String[] args) 
 	{
+		double price;
+		double disccount;
+		double savings;
+		Scanner keyboard = new Scanner (System.in);
 
 		displayInfo();
 	}
