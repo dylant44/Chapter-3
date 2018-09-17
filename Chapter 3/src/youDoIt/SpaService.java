@@ -1,19 +1,30 @@
 package youDoIt;
 
+import java.util.Scanner;
+
 public class SpaService 
 {
-
-	public static void main(String[] args) 
-	{
+	private String serviceDescription;
+	private double price;
 	
-		private String serviceDescription;
-		private double price;
-		
-		
-		
-		
-		
-
+	public void setSerrviceDescription(String service)
+	{
+		serviceDescription = service;
 	}
-
+	
+	public void setPrice(double pr)
+	{
+		price = pr;
+	}
+	
+	public String getServiceDescription()
+	{
+		return serviceDescription;
+	}
+	public double getPrice()
+	{
+		return price;
+	}
 }
+
+

@@ -18,10 +18,14 @@ public class fahrenheitToCelcius2 {
 		System.out.println("What was the temperature at 5?");
 		Fahrenheit5 = input.nextDouble();
 		
-		tempCelsius(Fahrenheit8, Fahrenheit12, Fahrenheit5);
+		tempCelsius(Fahrenheit8, 8);
+		tempCelsius(Fahrenheit12, 12);
+		tempCelsius(Fahrenheit5, 5);
 	}
-	public static void tempCelsius()
-	{
-	
+	public static void tempCelsius(double tempConv, int time)
+	{	
+		double celsiusResult;
+		celsiusResult = ((tempConv - 32) * .5556 );
+		System.out.println("At " + time +" the temperature in Celsius was " + celsiusResult);
 	}
 }
