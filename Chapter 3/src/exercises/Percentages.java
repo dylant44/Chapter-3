@@ -7,13 +7,15 @@ public class Percentages
 
 	public static void main(String[] args) 
 	{
+		
 		double x;
-		double y;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number");
+		x = input.nextDouble();
+		double y;
 		System.out.println("Enter another number");
+		y = input.nextDouble();
 		
-	
 computePercentage(x, y);
 	}
 
