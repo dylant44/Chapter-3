@@ -7,7 +7,7 @@ public class SpaService
 	private String serviceDescription;
 	private double price;
 	
-	public void setSerrviceDescription(String service)
+	public void setServiceDescription(String service)
 	{
 		serviceDescription = service;
 	}
@@ -24,6 +24,11 @@ public class SpaService
 	public double getPrice()
 	{
 		return price;
+	}
+	public SpaService()
+	{
+		serviceDescription = "XXX";
+		price = 0;
 	}
 }
 

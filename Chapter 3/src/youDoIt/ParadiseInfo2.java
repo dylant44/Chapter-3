@@ -2,7 +2,7 @@ package youDoIt;
 
 import java.util.Scanner;
 
-public class ParadiseInfo 
+public class ParadiseInfo2 
 {
 
 	public static void main(String[] args) 
