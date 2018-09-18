@@ -1,12 +1,18 @@
 package exercises;
 
+import java.util.Scanner;
+
 public class Percentages 
 {
 
 	public static void main(String[] args) 
 	{
-	double x = 4;
-	double y = 5;
+		double x;
+		double y;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number");
+		System.out.println("Enter another number");
+		
 	
 computePercentage(x, y);
 	}
